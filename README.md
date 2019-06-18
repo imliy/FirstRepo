@@ -2,4 +2,4 @@
 
 1.你好
 2.干啥
-![图片] (/home/tarena/Projectgit/dog.jpg)
+![图片] (./Projectgit/dog.jpg)
