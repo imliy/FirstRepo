@@ -1,0 +1,35 @@
+create table customers(
+ID int,
+name varchar(20),
+age int,
+address char(25),
+salary decimal(18,2)
+);
+
+insert into customers values
+(1,"Ann",30,"Beijing",2000.00),
+(2,"Kate",25,"Shanghai",1500.00),
+(3,"Jimmy",23,"Shenzhen",2000.00),
+(4,"Bob",25,"Beijing",6500.00),
+(5,"Susan",27,"Shanghai",8500.00),
+(6,"David",22,"Shenzhen",4500.00),
+(7,"Mary",24,"Hangzhou",10000.00);
+
+create table orders(
+o_id int,
+o_name varchar(30),
+date datetime,
+c_id int,
+amount decimal(10,2)
+);
+
+insert into orders values
+(100,"computer","2011-11-1 12:24:25",1,8800),
+(101,"iphone","2011-11-1 12:24:25",3,6600),
+(102,"microphone","2011-11-1 12:24:25",4,450),
+(103,"ipad","2011-11-1 12:24:25",4,9200),
+(104,"iwatch","2011-11-1 12:24:25",2,5700),
+(105,"mouse","2011-11-1 12:24:25",5,200),
+(106,"pen","2011-11-1 12:24:25",6,300),
+(107,"iphone","2011-11-1 12:24:25",7,7800),
+(108,"ipad","2011-11-1 12:24:25",5,12000);
